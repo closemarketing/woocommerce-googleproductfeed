@@ -15,6 +15,10 @@ Domain Path: /languages/
 
 License: GPL
 */
+/*
+ * localization
+ */
+load_plugin_textdomain( 'wc_gfeed', false, basename( dirname(__FILE__) ).'/languages' );
 
 //Google Product Feed
 //Define the product feed php page
